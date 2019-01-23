@@ -33,6 +33,6 @@ function prependDriver(name) {
 
 function removeLastDriver(name) {
   const removeLastDriver = drivers.slice()
-  removeLastDriver.pop(name)
+  removeLastDriver.pop()
   return removeLastDriver
 }
