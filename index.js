@@ -27,6 +27,6 @@ function appendDriver(name) {
 
 function prependDriver(name) {
   const prependDriver = drivers.unshift(name)
-  prependDriver.unshift(name)
+  prependDriver.unshift()
   return prependDriver
 }
